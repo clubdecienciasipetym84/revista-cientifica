@@ -1,86 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revista Científica - Club de Ciencias Jorge Vosco Lescano</title>
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
-            margin: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #004aad;
-            color: white;
-            padding: 2rem 1rem;
-        }
-        main {
-            padding: 2rem;
-        }
-        .bloques {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-        .bloque {
-            background-color: white;
-            border: 2px solid #004aad;
-            border-radius: 15px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-            width: 250px;
-            padding: 1.5rem;
-            text-decoration: none;
-            color: #004aad;
-            transition: all 0.2s;
-        }
-        .bloque:hover {
-            background-color: #004aad;
-            color: white;
-            transform: scale(1.05);
-        }
-        footer {
-            background-color: #004aad;
-            color: white;
-            padding: 1rem;
-            margin-top: 3rem;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revista Científica - Club de Ciencias Jorge Vosco Lescano</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffcf70, #ffb347);
+      margin: 0;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #ff9a00;
+      color: white;
+      padding: 2rem 1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      margin: 0;
+    }
+    main {
+      padding: 2rem;
+    }
+    .bloques {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .bloque {
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+      width: 250px;
+      padding: 1.5rem;
+      text-decoration: none;
+      color: #ff9a00;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+    .bloque:hover {
+      background-color: #ff9a00;
+      color: white;
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: #ff9a00;
+      color: white;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Revista Científica</h1>
-        <h2>Club de Ciencias Jorge Vosco Lescano</h2>
-    </header>
+  <header>
+    <h1>Revista Científica</h1>
+    <h2>Club de Ciencias Jorge Vosco Lescano</h2>
+  </header>
 
-    <main>
-        <h3>Índice de la Revista</h3>
-        <p>Seleccioná una categoría para explorar los contenidos del año:</p>
+  <main>
+    <h3>Índice de la Revista</h3>
+    <p>Explorá los proyectos y actividades desarrolladas durante el año:</p>
 
-        <div class="bloques">
-            <a href="viajes.html" class="bloque">
-                <h4>Viajes</h4>
-                <p>Visitas educativas y experiencias fuera del aula</p>
-            </a>
+    <div class="bloques">
+      <a href="visitas.html" class="bloque">Visitas</a>
+      <a href="saludmental.html" class="bloque">Salud Mental</a>
+    </div>
+  </main>
 
-            <a href="proyectos.html" class="bloque">
-                <h4>Proyectos</h4>
-                <p>Experimentos, investigaciones y desarrollos tecnológicos</p>
-            </a>
-
-            <a href="otros.html" class="bloque">
-                <h4>Otros</h4>
-                <p>Actividades, ferias, jornadas y más</p>
-            </a>
-        </div>
-    </main>
-
-    <footer>
-        <p>© 2025 Club de Ciencias Jorge Vosco Lescano - Córdoba, Argentina</p>
-    </footer>
+  <footer>
+    <p>© 2025 Club de Ciencias Jorge Vosco Lescano - Córdoba, Argentina</p>
+  </footer>
 </body>
 </html>
