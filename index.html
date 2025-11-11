@@ -3,93 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Revista Científica - Club de Ciencias Jorge Vosco Lescano</title>
+  <title>Revista Científica</title>
   <style>
     body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #ffcf70, #ffb347);
-      margin: 0;
-      color: #333;
+      font-family: Arial, sans-serif;
       text-align: center;
-    }
-    header {
-      background-color: #ff9a00;
-      color: white;
-      padding: 2rem 1rem;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-    h1, h2 {
+      background-color: #f4f4f4;
       margin: 0;
+      padding: 0;
     }
-    main {
-      padding: 2rem;
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px 0;
+      font-size: 24px;
+      font-weight: bold;
     }
+
     .bloques {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 2rem;
-      margin-top: 2rem;
+      gap: 20px;
+      padding: 40px 0;
     }
+
     .bloque {
       background-color: white;
       border-radius: 15px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       width: 250px;
       text-decoration: none;
-      color: #ff9a00;
-      font-weight: 600;
-      transition: all 0.3s;
-      overflow: hidden;
+      color: #333;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+
     .bloque:hover {
-      background-color: #ff9a00;
-      color: white;
       transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
     }
+
     .bloque img {
       width: 100%;
-      border-radius: 10px;
-      transition: transform 0.3s;
+      border-radius: 15px 15px 0 0;
     }
-    .bloque:hover img {
-      transform: scale(1.05);
-    }
+
     .bloque p {
-      margin: 1rem 0;
-    }
-    footer {
-      background-color: #ff9a00;
-      color: white;
-      padding: 1rem;
-      margin-top: 3rem;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #f9f9f9;
+      border-radius: 0 0 15px 15px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Revista Científica</h1>
-    <h2>Club de Ciencias Jorge Vosco Lescano</h2>
+    Revista Científica
   </header>
 
-  <main>
-    <h3>Índice de la Revista</h3>
-    <p>Explorá los proyectos y actividades desarrolladas durante el año:</p>
-
-    <div class="bloques">
-      <a href="visitas.html" class="bloque">
-        <img src="minidub1.jpeg" alt="Visitas">
-        <p>Visitas</p>
-      </a>
-      <a href="saludmental.html" class="bloque">
-        <img src="salud mental.jpeg" alt="Salud Mental">
-        <p>Salud Mental</p>
-      </a>
-    </div>
-  </main>
-
-  <footer>
-    <p>© 2025 Club de Ciencias Jorge Vosco Lescano - Córdoba, Argentina</p>
-  </footer>
+  <div class="bloques">
+    <a href="visitas.html" class="bloque">
+      <img src="miniclub1.jpeg" alt="Mini Club">
+      <p>Mini Club</p>
+    </a>
+    <a href="saludmental.html" class="bloque">
+      <img src="saludmental.jpeg" alt="Salud Mental">
+      <p>Salud Mental</p>
+    </a>
+  </div>
 </body>
 </html>
